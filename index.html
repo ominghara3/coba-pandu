@@ -1,0 +1,712 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Toko Pandu - Toko Buah, Sayur, Daging Terpercaya</title>
+    <meta
+      name="description"
+      content="Toko Pandu menyediakan buah-buahan segar, sayuran berkualitas, daging pilihan, dan kebutuhan sehari-hari dengan harga terjangkau dan pelayanan terbaik."
+    />
+    <link rel="stylesheet" href="home.css" />
+  </head>
+  <body>
+    <header class="navbar">
+      <div class="logo">Toko Pandu</div>
+      <nav>
+        <a href="home.html">Beranda</a>
+        <a href="produk.html">Produk</a>
+        <a href="tentang.html">Tentang</a>
+        <a href="tim.html">Tim</a>
+        <a href="kontak.html">Kontak</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="hero-text">
+          <h1>
+            Selamat Datang di <span class="gradient-text">Toko Pandu</span>
+          </h1>
+          <p>
+            Destinasi terpercaya untuk kebutuhan sehari-hari Anda. Buah segar,
+            sayuran berkualitas, daging pilihan, dan masih banyak lagi!
+          </p>
+          <div class="hero-buttons">
+            <a href="produk.html" class="btn primary">Lihat Produk Kami</a>
+            <a href="tentang.html" class="btn outline">Tentang Kami</a>
+          </div>
+        </div>
+        <div class="hero-image">
+          <img
+            src="https://images.unsplash.com/photo-1499654179987-55cf30f7572f"
+            alt="Toko Pandu - Buah dan sayuran segar"
+          />
+        </div>
+      </section>
+
+      <section class="features">
+        <h2>Mengapa Memilih <span class="gradient-text">Toko Pandu?</span></h2>
+        <p>Kami berkomitmen memberikan yang terbaik untuk keluarga Anda</p>
+        <div class="features-grid">
+          <div class="feature-card">
+            <div class="icon">⭐</div>
+            <h3>Kualitas Terbaik</h3>
+            <p>Produk segar dan berkualitas tinggi setiap hari</p>
+          </div>
+          <div class="feature-card">
+            <div class="icon">😊</div>
+            <h3>Pelayanan Ramah</h3>
+            <p>Tim yang berpengalaman dan siap membantu Anda</p>
+          </div>
+          <div class="feature-card">
+            <div class="icon">🏆</div>
+            <h3>Harga Terjangkau</h3>
+            <p>Harga kompetitif dengan kualitas terjamin</p>
+          </div>
+          <div class="feature-card">
+            <div class="icon">🚚</div>
+            <h3>Pengiriman Cepat</h3>
+            <p>Layanan antar untuk kemudahan berbelanja</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="cta">
+        <h2>Siap Berbelanja di Toko Pandu?</h2>
+        <p>Kunjungi toko kami atau hubungi untuk informasi lebih lanjut</p>
+        <div class="cta-buttons">
+          <a href="kontak.html" class="btn light">Hubungi Kami</a>
+          <a href="produk.html" class="btn outline-white">Jelajahi Produk</a>
+        </div>
+      </section>
+    </main>
+
+    <script src="home.js"></script>
+  </body>
+  <!--Produk-->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Produk Kami - Toko Pandu</title>
+    <meta
+      name="description"
+      content="Jelajahi berbagai produk segar di Toko Pandu: buah, sayur, daging, dan lainnya."
+    />
+    <link rel="stylesheet" href="produk.css" />
+  </head>
+  <body>
+    <main>
+      <section class="produk-header">
+        <h1>Produk <span class="gradient-text">Unggulan Kami</span></h1>
+        <p>
+          Temukan berbagai produk segar berkualitas tinggi untuk kebutuhan
+          sehari-hari Anda
+        </p>
+      </section>
+
+      <section class="slider">
+        <div class="slider-header">
+          <h2>Produk Pilihan</h2>
+          <div class="slider-controls">
+            <button onclick="prevSlide()">‹</button>
+            <button onclick="nextSlide()">›</button>
+          </div>
+        </div>
+        <div class="slider-wrapper" id="slider-wrapper"></div>
+        <div class="slide-indicators" id="slide-indicators"></div>
+      </section>
+    </main>
+    <script src="produk.js"></script>
+  </body>
+  <!--Tentang-->
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tentang Kami - Toko Pandu</title>
+    <meta
+      name="description"
+      content="Pelajari lebih lanjut tentang Toko Pandu, sejarah kami, visi misi, dan komitmen untuk menyediakan produk segar berkualitas tinggi untuk keluarga Indonesia."
+    />
+    <link rel="stylesheet" href="tentang.css" />
+  </head>
+  <body>
+    <main>
+      <!-- Hero -->
+      <section class="hero-section">
+        <h1>Tentang <span class="gradient-text">Toko Pandu</span></h1>
+        <p>
+          Sejak 2008, Toko Pandu telah menjadi destinasi terpercaya untuk
+          kebutuhan sehari-hari keluarga Indonesia. Kami berkomitmen menyediakan
+          produk segar berkualitas tinggi dengan pelayanan terbaik.
+        </p>
+      </section>
+
+      <!-- Cerita Kami -->
+      <section class="story-section">
+        <div class="story-text">
+          <h2>Cerita Kami</h2>
+          <p>
+            Toko Pandu dimulai dari mimpi sederhana untuk menyediakan produk
+            segar berkualitas tinggi bagi masyarakat. Berawal dari sebuah warung
+            kecil, kami terus berkembang dengan tetap mempertahankan nilai-nilai
+            kualitas dan pelayanan terbaik.
+          </p>
+          <p>
+            Kami percaya bahwa makanan segar dan berkualitas adalah hak setiap
+            keluarga. Oleh karena itu, kami bekerja sama langsung dengan petani
+            dan supplier terpercaya untuk memastikan setiap produk yang sampai
+            ke tangan Anda adalah yang terbaik.
+          </p>
+          <p>
+            Hingga kini, Toko Pandu telah melayani ribuan keluarga dengan bangga
+            dan terus berinovasi untuk memberikan pengalaman berbelanja yang
+            lebih baik.
+          </p>
+        </div>
+        <div class="story-image">
+          <img
+            src="https://images.unsplash.com/photo-1633950440800-2122ea94677c"
+            alt="Sejarah Toko Pandu"
+          />
+        </div>
+      </section>
+
+      <!-- Nilai-nilai Kami -->
+      <section class="values-section">
+        <h2>Nilai-Nilai Kami</h2>
+        <p>Prinsip yang menjadi fondasi dalam setiap langkah perjalanan kami</p>
+        <div class="values-grid">
+          <div class="value-card">
+            <div class="icon">❤️</div>
+            <h3>Kualitas Terjamin</h3>
+            <p>
+              Produk diseleksi ketat untuk memastikan kesegaran dan mutu
+              terbaik.
+            </p>
+          </div>
+          <div class="value-card">
+            <div class="icon">🏆</div>
+            <h3>Pengalaman Bertahun-tahun</h3>
+            <p>Lebih dari 15 tahun memahami kebutuhan dan selera pelanggan.</p>
+          </div>
+          <div class="value-card">
+            <div class="icon">🤝</div>
+            <h3>Pelayanan Terbaik</h3>
+            <p>
+              Tim profesional kami siap membantu pelanggan dengan sepenuh hati.
+            </p>
+          </div>
+          <div class="value-card">
+            <div class="icon">⏰</div>
+            <h3>Selalu Segar</h3>
+            <p>
+              Produk kami dikirim langsung dari petani dan supplier terpercaya.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Timeline -->
+      <section class="timeline-section">
+        <h2>Perjalanan Kami</h2>
+        <p>Milestone penting dalam perjalanan Toko Pandu</p>
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="timeline-year">2008</div>
+            <div class="timeline-content">
+              Toko Pandu didirikan dengan visi menyediakan produk segar
+              berkualitas.
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-year">2012</div>
+            <div class="timeline-content">
+              Ekspansi ke berbagai kategori produk dan kemitraan dengan petani
+              lokal.
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-year">2018</div>
+            <div class="timeline-content">
+              Meluncurkan layanan delivery untuk kemudahan pelanggan.
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-year">2024</div>
+            <div class="timeline-content">
+              Menjadi toko retail terpercaya dengan ribuan pelanggan setia.
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Visi dan Misi -->
+      <section class="vision-mission">
+        <div class="visi">
+          <h3>Visi Kami</h3>
+          <p>
+            Menjadi toko retail terdepan yang menyediakan produk segar
+            berkualitas tinggi dan terpercaya, serta memberikan pengalaman
+            berbelanja yang menyenangkan bagi setiap keluarga Indonesia.
+          </p>
+        </div>
+        <div class="misi">
+          <h3>Misi Kami</h3>
+          <ul>
+            <li>
+              • Menyediakan produk segar berkualitas tinggi dengan harga
+              terjangkau
+            </li>
+            <li>• Memberikan pelayanan terbaik kepada setiap pelanggan</li>
+            <li>• Mendukung petani dan supplier lokal</li>
+            <li>• Terus berinovasi untuk kemudahan berbelanja</li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <script src="tentang.js"></script>
+  </body>
+
+  <!--Tim-->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tim Kami - Toko Pandu</title>
+    <meta
+      name="description"
+      content="Kenali tim profesional Toko Pandu yang berdedikasi memberikan pelayanan terbaik dan produk berkualitas tinggi untuk keluarga Indonesia."
+    />
+    <link rel="stylesheet" href="tim.css" />
+  </head>
+  <body>
+    <main>
+      <!-- Hero -->
+      <section class="hero-section">
+        <h1>Tim <span class="gradient-text">Toko Pandu</span></h1>
+        <p>
+          Bertemu dengan tim profesional yang berdedikasi memberikan pelayanan
+          terbaik dan memastikan kualitas produk yang Anda terima selalu prima.
+        </p>
+      </section>
+
+      <!-- Anggota Tim -->
+      <section class="team-grid">
+        <!-- Diisi oleh script.js -->
+      </section>
+
+      <!-- Statistik Tim -->
+      <section class="team-stats">
+        <h2>Tim yang Berpengalaman</h2>
+        <div class="stats-grid">
+          <div>
+            <div class="stat-value">15+</div>
+            <div>Tahun Pengalaman</div>
+          </div>
+          <div>
+            <div class="stat-value">50+</div>
+            <div>Anggota Tim</div>
+          </div>
+          <div>
+            <div class="stat-value">98%</div>
+            <div>Kepuasan Pelanggan</div>
+          </div>
+          <div>
+            <div class="stat-value">24/7</div>
+            <div>Dukungan Pelanggan</div>
+          </div>
+        </div>
+      </section>
+
+      <!-- CTA -->
+      <section class="cta-team">
+        <h2>Bergabung dengan Tim Kami</h2>
+        <p>
+          Kami selalu mencari talenta terbaik untuk bergabung. Jika Anda punya
+          passion di bidang retail dan pelayanan pelanggan, hubungi kami!
+        </p>
+        <div class="cta-buttons">
+          <a href="mailto:karir@tokopandu.com" class="btn primary"
+            >📧 Kirim CV Anda</a
+          >
+          <a href="tel:+6281234567890" class="btn outline">📞 Hubungi HRD</a>
+        </div>
+      </section>
+    </main>
+
+    <script src="tim.js"></script>
+  </body>
+  <!-- Kontak-->
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hubungi Kami - Toko Pandu</title>
+    <meta
+      name="description"
+      content="Hubungi Toko Pandu untuk pertanyaan, saran, atau informasi lebih lanjut. Kami siap melayani Anda dengan pelayanan terbaik."
+    />
+    <link rel="stylesheet" href="kontak.css" />
+  </head>
+  <body>
+    <main>
+      <!-- Hero -->
+      <section class="hero-section">
+        <h1>Hubungi <span class="gradient-text">Kami</span></h1>
+        <p>
+          Kami senang mendengar dari Anda! Jangan ragu untuk menghubungi kami
+          jika ada pertanyaan, saran, atau butuh bantuan dalam berbelanja.
+        </p>
+      </section>
+
+      <!-- Info Kontak -->
+      <section class="contact-info-grid">
+        <div class="contact-card">
+          <h3>📍 Alamat Toko</h3>
+          <p>
+            Jl. Raya Kemang No. 123<br />Jakarta Selatan 12560<br />Indonesia
+          </p>
+        </div>
+        <div class="contact-card">
+          <h3>📞 Telepon</h3>
+          <p>
+            +62 812-3456-7890<br />+62 21-7890-1234<br />WhatsApp: +62
+            812-3456-7890
+          </p>
+        </div>
+        <div class="contact-card">
+          <h3>📧 Email</h3>
+          <p>
+            info@tokopandu.com<br />customer@tokopandu.com<br />karir@tokopandu.com
+          </p>
+        </div>
+        <div class="contact-card">
+          <h3>⏰ Jam Operasional</h3>
+          <p>
+            Senin–Sabtu: 08.00–21.00<br />Minggu: 09.00–20.00<br />Hari Libur:
+            10.00–18.00
+          </p>
+        </div>
+      </section>
+
+      <!-- Form Kontak -->
+      <section class="contact-form-section">
+        <h2>Kirim Pesan</h2>
+        <form id="contact-form">
+          <div class="form-grid">
+            <input
+              type="text"
+              name="name"
+              placeholder="Nama Lengkap"
+              required
+            />
+            <input type="email" name="email" placeholder="Email" required />
+            <input type="tel" name="phone" placeholder="Nomor Telepon" />
+            <select name="subject" required>
+              <option value="">Pilih Subjek</option>
+              <option value="produk">Pertanyaan Produk</option>
+              <option value="keluhan">Keluhan</option>
+              <option value="saran">Saran</option>
+              <option value="kerjasama">Kerjasama</option>
+              <option value="lainnya">Lainnya</option>
+            </select>
+          </div>
+          <textarea
+            name="message"
+            placeholder="Tulis pesan Anda..."
+            rows="5"
+            required
+          ></textarea>
+          <div class="form-actions">
+            <button type="submit" class="btn primary">📤 Kirim Pesan</button>
+            <button type="button" class="btn outline" onclick="kirimWhatsApp()">
+              💬 WhatsApp
+            </button>
+          </div>
+        </form>
+      </section>
+
+      <!-- Lokasi dan FAQ -->
+      <section class="map-faq-section">
+        <div class="map-card">
+          <h3>📍 Lokasi Toko</h3>
+          <img
+            src="https://images.unsplash.com/photo-1550022551-f6c353dd707b"
+            alt="Peta lokasi toko"
+          />
+          <a
+            href="https://www.google.com/maps"
+            class="btn outline"
+            target="_blank"
+            >Buka di Google Maps</a
+          >
+        </div>
+        <div class="faq-card">
+          <h3>❓ Pertanyaan Umum</h3>
+          <p>
+            <strong>Apakah ada layanan antar?</strong><br />Ya, kami melayani
+            area Jakarta dan sekitarnya.
+          </p>
+          <p>
+            <strong>Bagaimana cara memesan?</strong><br />Datang ke toko atau
+            hubungi kami via WhatsApp.
+          </p>
+          <p>
+            <strong>Apakah produk selalu segar?</strong><br />Ya, kesegaran
+            produk adalah prioritas utama kami.
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <!-- Contact -->
+    <section id="contact">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Kunjungi Kami</h2>
+          <p class="section-subtitle">
+            Kami siap membantu Anda. Silakan hubungi kami melalui media sosial
+            atau kunjungi lokasi kami berikut.
+          </p>
+        </div>
+
+        <div class="contact-flex">
+          <!-- Google Maps Box -->
+          <div class="contact-box map-box">
+            <a
+              href="https://maps.app.goo.gl/htidJFL4GP8Rk8D68"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src="maps.png" alt="Lokasi Google Maps" />
+            </a>
+          </div>
+
+          <!-- Info Kontak Box -->
+          <div class="contact-box info-box">
+            <div>
+              <h4>Alamat</h4>
+              <p>Jl. Contoh No.123, Jakarta, Indonesia</p>
+            </div>
+            <div>
+              <h4>Telepon</h4>
+              <p>+62 812 3456 7890</p>
+            </div>
+            <div>
+              <h4>Email</h4>
+              <p>info@pandu-supplier.com</p>
+            </div>
+            <div>
+              <h4>Ikuti Kami</h4>
+              <div class="sosmed">
+                <a href="#">Instagram</a>
+                <a href="#">Facebook</a>
+                <a href="#">WhatsApp</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <p>&copy; 2025 Toko Pandu. Semua hak cipta dilindungi.</p>
+    </footer>
+
+    <script src="kontak.js"></script>
+  </body>
+</html>
+
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hubungi Kami - Toko Pandu</title>
+    <meta
+      name="description"
+      content="Hubungi Toko Pandu untuk pertanyaan, saran, atau informasi lebih lanjut. Kami siap melayani Anda dengan pelayanan terbaik."
+    />
+    <link rel="stylesheet" href="kontak.css" />
+  </head>
+  <body>
+    <header class="navbar">
+      <div class="logo">Toko Pandu</div>
+      <nav>
+        <a href="home.html">Beranda</a>
+        <a href="produk.html">Produk</a>
+        <a href="tentang.html">Tentang</a>
+        <a href="tim.html">Tim</a>
+        <a href="kontak.html">Kontak</a>
+      </nav>
+    </header>
+
+    <main>
+      <!-- Hero -->
+      <section class="hero-section">
+        <h1>Hubungi <span class="gradient-text">Kami</span></h1>
+        <p>
+          Kami senang mendengar dari Anda! Jangan ragu untuk menghubungi kami
+          jika ada pertanyaan, saran, atau butuh bantuan dalam berbelanja.
+        </p>
+      </section>
+
+      <!-- Info Kontak -->
+      <section class="contact-info-grid">
+        <div class="contact-card">
+          <h3>📍 Alamat Toko</h3>
+          <p>
+            Jl. Raya Kemang No. 123<br />Jakarta Selatan 12560<br />Indonesia
+          </p>
+        </div>
+        <div class="contact-card">
+          <h3>📞 Telepon</h3>
+          <p>
+            +62 812-3456-7890<br />+62 21-7890-1234<br />WhatsApp: +62
+            812-3456-7890
+          </p>
+        </div>
+        <div class="contact-card">
+          <h3>📧 Email</h3>
+          <p>
+            info@tokopandu.com<br />customer@tokopandu.com<br />karir@tokopandu.com
+          </p>
+        </div>
+        <div class="contact-card">
+          <h3>⏰ Jam Operasional</h3>
+          <p>
+            Senin–Sabtu: 08.00–21.00<br />Minggu: 09.00–20.00<br />Hari Libur:
+            10.00–18.00
+          </p>
+        </div>
+      </section>
+
+      <!-- Form Kontak -->
+      <section class="contact-form-section">
+        <h2>Kirim Pesan</h2>
+        <form id="contact-form">
+          <div class="form-grid">
+            <input
+              type="text"
+              name="name"
+              placeholder="Nama Lengkap"
+              required
+            />
+            <input type="email" name="email" placeholder="Email" required />
+            <input type="tel" name="phone" placeholder="Nomor Telepon" />
+            <select name="subject" required>
+              <option value="">Pilih Subjek</option>
+              <option value="produk">Pertanyaan Produk</option>
+              <option value="keluhan">Keluhan</option>
+              <option value="saran">Saran</option>
+              <option value="kerjasama">Kerjasama</option>
+              <option value="lainnya">Lainnya</option>
+            </select>
+          </div>
+          <textarea
+            name="message"
+            placeholder="Tulis pesan Anda..."
+            rows="5"
+            required
+          ></textarea>
+          <div class="form-actions">
+            <button type="submit" class="btn primary">📤 Kirim Pesan</button>
+            <button type="button" class="btn outline" onclick="kirimWhatsApp()">
+              💬 WhatsApp
+            </button>
+          </div>
+        </form>
+      </section>
+
+      <!-- Lokasi dan FAQ -->
+      <section class="map-faq-section">
+        <div class="map-card">
+          <h3>📍 Lokasi Toko</h3>
+          <img
+            src="https://images.unsplash.com/photo-1550022551-f6c353dd707b"
+            alt="Peta lokasi toko"
+          />
+          <a
+            href="https://www.google.com/maps"
+            class="btn outline"
+            target="_blank"
+            >Buka di Google Maps</a
+          >
+        </div>
+        <div class="faq-card">
+          <h3>❓ Pertanyaan Umum</h3>
+          <p>
+            <strong>Apakah ada layanan antar?</strong><br />Ya, kami melayani
+            area Jakarta dan sekitarnya.
+          </p>
+          <p>
+            <strong>Bagaimana cara memesan?</strong><br />Datang ke toko atau
+            hubungi kami via WhatsApp.
+          </p>
+          <p>
+            <strong>Apakah produk selalu segar?</strong><br />Ya, kesegaran
+            produk adalah prioritas utama kami.
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <!-- Contact -->
+    <section id="contact">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Kunjungi Kami</h2>
+          <p class="section-subtitle">
+            Kami siap membantu Anda. Silakan hubungi kami melalui media sosial
+            atau kunjungi lokasi kami berikut.
+          </p>
+        </div>
+
+        <div class="contact-flex">
+          <!-- Google Maps Box -->
+          <div class="contact-box map-box">
+            <a
+              href="https://maps.app.goo.gl/htidJFL4GP8Rk8D68"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src="maps.png" alt="Lokasi Google Maps" />
+            </a>
+          </div>
+
+          <!-- Info Kontak Box -->
+          <div class="contact-box info-box">
+            <div>
+              <h4>Alamat</h4>
+              <p>Jl. Contoh No.123, Jakarta, Indonesia</p>
+            </div>
+            <div>
+              <h4>Telepon</h4>
+              <p>+62 812 3456 7890</p>
+            </div>
+            <div>
+              <h4>Email</h4>
+              <p>info@pandu-supplier.com</p>
+            </div>
+            <div>
+              <h4>Ikuti Kami</h4>
+              <div class="sosmed">
+                <a href="#">Instagram</a>
+                <a href="#">Facebook</a>
+                <a href="#">WhatsApp</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <p>&copy; 2025 Toko Pandu. Semua hak cipta dilindungi.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
